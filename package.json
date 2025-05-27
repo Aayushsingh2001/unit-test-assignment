@@ -1,0 +1,18 @@
+{
+  "name": "node-testing-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "test:integration": "jest tests/integration",
+    "test:e2e": "node tests/e2e/items.e2e.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.3",
+    "selenium-webdriver": "^4.17.0"
+  }
+}
